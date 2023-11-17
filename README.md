@@ -1,12 +1,4 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 # Report\
-\
 **Title: Evolution of beer preferences**\
 \
 **Abstract**\
@@ -44,7 +36,7 @@ To address RQ1,2, we are going to investigate, number of ratings, ratings for ea
 We are going to implement almost the same analysis to investigate the time lag of introduction of one beer to the market and its popularity. We choose to use the first rating on the website as an indication of an entrance of beer to the market (this measure overestimates the release date of the beer). We introduce the lag time into the equation and check its association to the overall ratings. As there are newer beers introduced to the market with new initial ratings annually, it is important to see whether the overall demand in the market has increased or these new beers are a response to new beer tastes to the market. To analyze this we used the data on the beer production and sales from the US department of Treasury. We will check the hypothesis if the the sales and production of beers in the US has increased significantly from 2012 (availability of the data) to 2017 (upper bound of data on beer dataset).\
 \
 \
-### **Proposed timeline **\
+**Proposed timeline **
 \
 We set up six sprints, the first one matching the deadline for milestone 2 and the last one corresponding to the final submission.\
 \
@@ -55,7 +47,7 @@ We set up six sprints, the first one matching the deadline for milestone 2 and t
 * 15/12/22 : website draft\
 * 22/12/23 : finish data story, website and review\
 \
-### \
+
 **Organization within the team **\
 \
 * Datastory: All\

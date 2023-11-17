@@ -30,7 +30,7 @@ The first step is to understand the data sets that we have and what each of them
 
 To address RQ1,2, we are going to investigate a number of ratings, and ratings for each beer style temporally. As we have four different ratings for each beer and an overall score, we can use these ratings as a metric for users to judge different beer styles. Linear regression is going to be used as the main tool for this objective. We are going to predict the average overall ratings of a beer style (DV) using _year_, _beer_ _style_,_ ratings of aroma_,_ ratings for appearance, ratings for the palette, ratings for taste, and geographical location_. We can use marginal means in order to investigate more in detail how variations in our independent variables would react at their different values. For instance, having an interaction with _year_ and other variables to investigate their influence on the overall outcome. In order to check the no multicollinearity of our regression, we will use variance inflation factors to be sure that our independent variables are not correlated.
 
-We intend to do the analysis on both datasets, and it is interesting to see if the conclusion of both data sets for the similar beer styles is the same or not? As it is concluded in the literature, this data sets are suffering from the herding effect (https://arxiv.org/abs/1802.06578); therefore, it is interesting to check whether the two data set will end to the same results or the herding effect has a significance influence. 
+We intend to do the analysis on both datasets, and it is interesting to see if the conclusion of both data sets for the similar beer styles is the same or not. As it is concluded in the literature, these data sets are suffering from the herding effect (https://arxiv.org/abs/1802.06578); therefore, it is interesting to check whether the two data sets will end up with the same results or not.
 
  
 
@@ -40,7 +40,7 @@ We are going to implement almost the same analysis to investigate the time lag o
 
 **Data filtering:**
 
-
+As the ratings are the main analysis for us, we are going to remove the beers with less than 10 ratings. This is a way to ensure that the ratings are from users and not some biased review from the producers of the beer (It is important to know that the threshold of 10 may be changed as the project continues). Regarding the ourliers we will remove any data in our feature which is more than Q3 + 1.5 * interquartile range. 
 
 ### Proposed timeline 
 

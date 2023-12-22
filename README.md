@@ -2,6 +2,9 @@
 
 **Title: Evolution of beer preferences**
 
+**Data Stroy** 
+The link to data story is accessible via: [Data story](https://ambor1011.github.io/NeverEnoughData/)
+
 **Abstract**
 
 Beer is one of the most used alcoholic beverages in the world. It’s consumption has exceeded more than 185 million kiloliters in recent years. As a beverage that hundred of millions of people drink, its taste and style have experienced considerable evolution. As with any business understanding consumer preferences of beer styles is crucial for producers, distributors, and enthusiasts alike. This report digs into a comprehensive beer dataset, aiming to show the history of beer preferences over time. We are going to investigate what variables are contributing to beer preferences and how they evolve through time.
@@ -18,9 +21,6 @@ RQ3: What is the estimated lag time between introducing a new beer and the gain 
 
 RQ4: Is there any difference geographically between the trends of beer?
 
-**Additional datasets**
-
-Our dataset contains of two datasets from two big beer review websites RateBeer and BeerAdvocate. Therefore our datasets contain reviews from users and rate beers with text reviews. However, there is no data on the consumption of beer. This information is very important, as the increased number of reviews may be caused by the increase of the production of the beers and therefore, no concrete conclusion could be made. After searching through the internet, we found that the Alcohol and Tobacco Tax and Trade Bureau of the United States Department of Treasury publishes data regarding the production and sales of beers in the United States from 2012 to 2023. The data that they publish is on PDF or Excel files and they could be quarterly at the level of state or monthly at the national level. We use this data to implement the robustness check on our analysis at least for the data in the United States. On the additional_data directory, the Excel files are available. 
 
 **Method**
 

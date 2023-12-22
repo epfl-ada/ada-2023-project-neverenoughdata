@@ -28,7 +28,8 @@ The first step is to understand the data sets that we have and what each of them
 
 **RQ 1**
 
-To address RQ 1, we used clustring technique to evaluate two metric for different beer styles. 
+To address RQ 1, we used clustring technique to evaluate two metric for different beer styles.
+
 Metric 1: Rating’s average
 
 In this metric it is about grouping a set of beer together and take the mean of those beers. The changes of this metric []through time[] can be explained by two ways :
@@ -37,10 +38,11 @@ It shows that a group of beer is less/more appreciated through a certain period 
 It shows that the actual beers of this group get better through time Those 2 explanation can also be seen as one. For instance if blonde beer become has a better rating average in 2015 than 2003, does this mean that blond beer has a better taste in 2015 or does it mean that poeple like more the blond beers in 2015 than in 2003. This is effectively quite subjective, but it tells the same at the end.
 Metric 2 : Number of rating
 
-This one is the more interresting : it measure the number of rating for a certain group of beer. This metric express a sort of popularity.
+This one is the more interesting: it measures the number of ratings for a certain group of beers. This metric express a sort of popularity.
 
 **RQ 2:** 
-n this research question we would like to answer, which aspect of the beer in the ratings (aroma, appearance, taste, pallate and overall rate) have the highest impact on the popularity of the beer. First lets visualize the ratings for each of these aspects during the time we have data, to see if the perception of reviewers towards different beer styles in each of these aspects is changed or not.
+
+In this research question, we would like to answer which aspect of the beer in the ratings (aroma, appearance, taste, palate, and overall rate) has the highest impact on the popularity of the beer. First, let's visualize the ratings for each of these aspects during the time we have data to see if the perception of reviewers towards different beer styles in each of these aspects is changed or not.
 
 To answer this question we should define the popularity in this context. For the research question we define the popularity as follow.
 
@@ -48,11 +50,13 @@ Metric 3
 
 Populairty = scaled number of reviews per beer style per year * average rating per beer style per year.
 
-The reason to construct the populaity like this is the fact that, the number of reviews are not constant during different years therefore we need to devide the number of reviews for each beer style per year by total number of reviews in that year to find a relative attaction of certain beer style for writting the review. But having number of review is not only pillar to quality and acceptance of a beer, maybe we can have a bad beer with high number of reviews. Therefore, we multipy the relative number of comments to average rating for that year and beer style. This metric could represent the populaity of beer.
+The reason to construct the popularity like this is the fact that the number of reviews is not constant during different years;, therefore,, we need to divide the number of reviews for each beer style per year by a total number of reviews in that year to find the relative attraction of certain beer style for writing the review. But having number of review is not only pillar to quality and acceptance of a beer, maybe we can have a bad beer with high number of reviews. Therefore, we multiply the relative number of comments to the average rating for that year and beer style. This metric could represent the populaity of beer.
 
-Now we have our dependant varibale, lets talk about the independant varibales. We are going to use aroma, appearance, taste, pallate and overall rate as our IVs. But before construcitng the regression we need to make sure our independant variables are indeed independant
+Now we have our dependent variable, let's talk about the independent variables. We are going to use aroma, appearance, taste, palate, and overall rate as our IVs. 
 
 **RQ 3:**
+
+
 The third research question tries to assess the time it takes for a beer to get popular. This analysis holds on two date definitions : the date the beer is released ; and the date it becomes popular.
 This analysis, to be relevant must only be ran on beers with a high number of ratings, so that the beer is really popular, we’ve chose 500.
 The release date is defined as the earliest rating we have in our dataset, to avoid beers released before dates in our dataset, we neglect all beers appearing in ratings in the two first years of activity of the website (2000, 2001).
@@ -77,4 +81,4 @@ As the ratings are the main analysis for us, we are going to remove the beers wi
 * RQ2: Amirsiavosh
 * RQ3: Jules
 * RQ4: Kuba
-* Ethical Risk: Amir
+* Ethical Risk: Amirsiavosh
